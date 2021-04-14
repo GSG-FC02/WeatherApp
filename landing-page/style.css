@@ -195,7 +195,38 @@
     padding: 30px 10px;
     font-size: 1.1em;
   }
+   /* about us */
+  #about-us {
+    flex-direction: column;
+    padding: 1.2rem 0 0 0;
+  }
 
+  #about-us .aboutus-img {
+    width: 100%;
+    text-align: center;
+  }
+
+  #about-us .aboutus-content {
+    width: 100%;
+    padding: 2rem 1.2rem;
+    text-align: center;
+  }
+  /* about us */
+  #about-us {
+    flex-direction: column;
+    padding: 1.2rem 0 0 0;
+  }
+
+  #about-us .aboutus-img {
+    width: 100%;
+    text-align: center;
+  }
+
+  #about-us .aboutus-content {
+    width: 100%;
+    padding: 2rem 1.2rem;
+    text-align: center;
+  }
   /* services */
   .our-services {
     flex-direction: column;
@@ -204,6 +235,7 @@
   .our-services-category {
     margin-bottom: 1rem;
   }
+  
 }
 @media (max-width: 1440px) {
   .header-content {
