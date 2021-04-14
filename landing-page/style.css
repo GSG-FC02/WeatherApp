@@ -153,7 +153,97 @@
   color: #1a6692;
   margin-bottom: 15px;
 }
+/* contact-us section */
+.contact-us {
+  display: block;
+  margin: 0 auto;
+  background-color: white;
+  text-align: center;
+  align-items: center;
+}
 
+.contact-us-section-title {
+  color: #5d6c92;
+  padding: 80px 0 40px;
+  text-align: center;
+}
+
+#N {
+  border: 2px solid #ccc;
+  color: #626364;
+  font-size: 17px;
+  padding: 5px;
+  width: 75%;
+  cursor: pointer;
+}
+#e {
+  border: 2px solid #ccc;
+  color: #626364;
+  font-size: 17px;
+  margin: 5px;
+  padding: 5px;
+  width: 75%;
+  cursor: pointer;
+}
+#m {
+  border: 2px solid #ccc;
+  color: #626364;
+  font-size: 17px;
+  margin: 5px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-bottom: 100px;
+  width: 75%;
+  cursor: pointer;
+}
+.btn {
+  font-size: 17px;
+  margin-bottom: 30px;
+  padding: 5px;
+  border-color: transparent;
+  width: 75%;
+  color: white;
+  background-color: #5d6c92;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #3f4d6e;
+}
+
+.errorName {
+  display: block;
+  margin: 0 auto;
+  width: 75%;
+  color: red;
+  font-size: 17px;
+  text-align: left;
+}
+.errorEmail {
+  display: block;
+  margin: 0 auto;
+  width: 75%;
+  color: red;
+  font-size: 17px;
+  text-align: left;
+}
+.errorMag {
+  display: block;
+  margin: 0 auto;
+  width: 75%;
+  color: red;
+  font-size: 17px;
+  text-align: left;
+}
+.sendSuccess {
+  display: block;
+  margin: 0 auto;
+  background-color: #beffdf;
+  background-position: center;
+  width: 70%;
+  font-size: 17px;
+  padding: 15px 10px;
+  text-align: left;
+}
 @media (max-width: 700px) {
   .main {
     display: block;
