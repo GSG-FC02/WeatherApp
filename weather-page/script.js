@@ -17,7 +17,7 @@ search.addEventListener("click", function () {
 
     async function getISS() {
         const response = await fetch(
-           " https://geocode.xyz/${inputSearch}?json=1"
+            `https://geocode.xyz/${inputSearch}?json=1`
         );
 
         console.log(inputSearch + "0000000000");
@@ -32,6 +32,7 @@ search.addEventListener("click", function () {
 
     getISS();
 });
+
 function getResults(query) {
     fetch(`${api.base}weather?q=${query}&units=metric&appid=${api.key}`)
         .then((weather) => {
@@ -59,6 +60,7 @@ function displayResults(weather) {
         weather.main.temp_max
     )}°c`;
 }
+
 function dateBuilder(d) {
     let months = [
         "January",
@@ -94,7 +96,7 @@ function dateBuilder(d) {
 var map = L.map("map").setView([0, 0], 1);
 
 L.tileLayer(
-    "https://api.maptiler.com/maps/streets/%7Bz%7D/%7Bx%7D/%7By%7D.png?key=9Epy1Vsb9K1Jl3LXdPk0",
+    "https://api.maptiler.com/maps/streets/{z}/{x}/{y}.png?key=9Epy1Vsb9K1Jl3LXdPk0",
     {
         attribution:
             '<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>',
