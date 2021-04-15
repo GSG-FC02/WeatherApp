@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "montserrat", sans-serif;
+}
+
+.app-wrap {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    height: 100vh;
+    background: url("images/winter1.jpg") no-repeat center center/cover;
+}
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 1.5rem 1.5rem;
+}
+
+header input {
+    width: 100%;
+    max-width: 22rem;
+    padding: 0.8rem 0.7rem;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid #000;
+    border-radius: 25px 0 0 25px;
+
+    color: #313131;
+    font-size: 1.3rem; /*edited*/
+    font-weight: 300;
+    text-align: center;
+    transition: 0.2s ease-out;
+}
+
+header input:focus {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+header i {
+    padding: 0.53rem 0.7rem;
+    font-size: 1.3rem;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 1px solid #8a7d68;
+    border-bottom: 1px solid #000;
+    border-radius: 0 25px 25px 0;
+    cursor: pointer;
+}
+
+header .alert {
+    margin-top: 0.3rem;
+    font-size: 1.2rem;
+    color: #fff;
+}
