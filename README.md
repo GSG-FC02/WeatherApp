@@ -5,11 +5,10 @@
 - Abdalhakim Abumusameh
 - Amira Alnajjar
 - Abdallah Rabah
-
 ## Live Link:
+[Here](https://gsg-fc02.github.io/WeatherApp/)
 ## Figma Link:
-https://www.figma.com/file/DG5hjc4MhTM6NPr0OKZcp8/final-project?node-id=0%3A1
-
+[Here](https://www.figma.com/file/DG5hjc4MhTM6NPr0OKZcp8/final-project?node-id=0%3A1)
 ## The name of project:
 SunCloud ⛅
 ## Idea:💡
