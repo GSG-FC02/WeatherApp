@@ -325,6 +325,19 @@
   .our-services-category {
     margin-bottom: 1rem;
   }
+  /* contact us */
+  #N {
+    margin-top: 20px;
+  }
+  .errorName {
+    font-size: 0.5em;
+  }
+  .errorEmail {
+    font-size: 0.5em;
+  }
+  .sendSuccess {
+    font-size: 0.8em;
+  }
   
 }
 @media (max-width: 1440px) {
