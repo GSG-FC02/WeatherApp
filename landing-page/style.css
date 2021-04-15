@@ -66,6 +66,58 @@
   right: auto;
   font-size: 2rem;
 }
+/*about-us section*/
+#about-us {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5rem 0;
+  padding: 3rem 1.2rem;
+}
+
+#about-us .aboutus-img {
+  width: 50%;
+  text-align: center;
+}
+
+#about-us .aboutus-img .circleImg {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+}
+
+#about-us .aboutus-content {
+  width: 80%;
+  padding: 2rem 1.2rem;
+}
+
+#about-us .aboutus-content h3 {
+  font-size: 2rem;
+  color: #5d6c92;
+}
+
+#about-us .aboutus-content p {
+  font-size: 1.1rem;
+  padding-top: 1.2rem;
+  line-height: 1.8rem;
+}
+
+#about-us .aboutus-content button {
+  width: 12rem;
+  height: 3rem;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  color:  #fff;
+  border: 2px solid;
+  background-color: #5d6c92;
+  cursor: pointer;
+}
+
+#about-us .aboutus-content button:hover {
+  background-color: #fff;
+  color: #5d6c92;
+  font-weight: 400;
+}
 
 /* OUR SERVICES section */
 #services-sec {
