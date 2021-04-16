@@ -3,13 +3,12 @@
 
 ## Live Link:
 [Here](https://gsg-fc02.github.io/WeatherApp/)
+
 ## Figma Link:
 [Here](https://www.figma.com/file/DG5hjc4MhTM6NPr0OKZcp8/final-project?node-id=0%3A1)
+
 ## The name of project:
 SunCloud ⛅
-
-## Idea:💡
-
 
 ## Idea:💡
 The main target of this website is to know the temperatures and the weather status.
@@ -45,12 +44,14 @@ We i got in the second page :
 
 ## User journey:
 Our website consist of two pages:
-    - first page consist of:
+
+    - first page consist of
         - The interface photo with the title of our app
         - The about us section.
         - Our services section.
         - Contact us section.
         - footer 
+        - 
     - second page consist of:
         - logo.
         - The first section contain information return from weather API.
